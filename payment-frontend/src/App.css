@@ -1,0 +1,67 @@
+/* Centralizando a div do cartão */
+.payment-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.credit-card {
+  width: 300px;
+  height: 180px;
+  background-color: #1b1b1b;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.card-number {
+  font-size: 18px;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+
+.card-expiry-cvv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.payment-form {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group {
+  margin-bottom: 10px;
+}
+
+label {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.pay-button {
+  background-color: #28a745;
+  color: white;
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pay-button:hover {
+  background-color: #218838;
+}
